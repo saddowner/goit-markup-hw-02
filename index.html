@@ -7,182 +7,133 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Студія</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>WebStudio</title>
   </head>
   <body>
-    <!-- site header-->
     <header>
-      <nav>
-        <!-- site logo-->
-        <a href="./index.html" class="logo-header"
-          ><span class="logo-header-blue-black">Web</span>Studio</a
-        >
-        <!-- links in site header -->
-        <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студія</a></li>
-          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-          <li><a href="" class="link">Контакти</a></li>
+      <nav class="navigation link">
+        <a class="primery-logo link" href="./index.html"
+          >Web<span class="secondery-logo link">Studio</span>
+        </a>
+
+        <ul class="list">
+          <li>
+            <a class="navigation-item link" href="./index.html">Studio</a>
+          </li>
+          <li>
+            <a class="navigation-item link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li><a class="navigation-item link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <!-- contacts in header -->
-      <ul class="contacts">
-        <li>
-          <a href="mailto:info@devstudio.com" class="contact-link-header"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="contact-link-header"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      <address class="contacts">
+        <ul class="contacts-list list">
+          <li class="contacts-item">
+            <a class="contacts-item link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-item link" href="tel:+110001111111">
+              +11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
     </header>
     <main>
-      <!-- background:banner/picture/video? -->
-      <section class="section-banner">
-        <h1 class="section-banner-title">
-          Ефективні рішення для вашого бізнесу
-        </h1>
-        <button type="button" class="button-banner">Замовити послугу</button>
+      <section class="our-skills">
+        <h1 class="name">Effective Solutions for Your Business</h1>
+        <button class="btn" type="button">Order Service</button>
       </section>
-      <!-- company advantages -->
-      <section class="section-company">
-        <ul class="company-list">
-          <li>
-            <h3 class="company-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p class="company-title-text">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
+      <section class="goal">
+        <h2 class="name-two" hidden>goal</h2>
+        <ul class="list">
+          <li class="goal-item-list">
+            <h3 class="goal-name">Strategy</h3>
+            <p class="text">
+              Our goal is to identify the business problem to walk away with the
+              perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3 class="company-title">ПУНКТУАЛЬНІСТЬ</h3>
-            <p class="company-title-text">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
+          <li class="goal-item-list">
+            <h3 class="goal-name">Punctuality</h3>
+            <p class="text">
+              Bring the key message to the brand's audience for the best price
+              within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3 class="company-title">ПЛАНУВАННЯ</h3>
-            <p class="company-title-text">
-              Так само консультація з широким активом значною мірою зумовлює.
+          <li class="goal-item-list">
+            <h3 class="goal-name">Diligence</h3>
+            <p class="text">
+              Research and confirm brands that present the strongest digital
+              growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3 class="company-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p class="company-title-text">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
+          <li class="goal-item-list">
+            <h3 class="goal-name">Technologies</h3>
+            <p class="text">
+              Design practice focused on digital experiences. We bring forth a
+              deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
-      <!-- what does the company do -->
-      <section class="section-works">
-        <h2 class="section-works-title">Чим ми займаємося</h2>
-        <ul class="works-list">
+      <section>
+        <h2 class="name-section">What are we doing</h2>
+        <ul class="list">
           <li>
-            <img
-              src="./images/works-process1.jpg"
-              alt="close-up-image-programer-working-his-desk-office"
-              width="370"
-            />
+            <img src="./images/tel.jpg" alt="What-are-we-doing" width="360" />
           </li>
           <li>
-            <img
-              src="./images/works-process2.jpg"
-              alt="web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones"
-              width="370"
-            />
+            <img src="./images/lap.jpg" alt="What-are-we-doing" width="360" />
           </li>
           <li>
-            <img
-              src="./images/works-process3.jpg"
-              alt="creative-artist-web-design-with-working-colour-selection-graphic-tablet"
-              width="370"
-            />
+            <img src="./images/all.jpg" alt="What-are-we-doing" width="360" />
           </li>
         </ul>
       </section>
-      <!-- our team -->
-      <section class="section-team">
-        <h2 class="section-title">Наша команда</h2>
-        <ul class="section-team-list">
+      <section>
+        <h2 class="name-section">Our Team</h2>
+        <ul class="list">
           <li>
-            <a href="">
-              <img
-                src="./images/foto1.jpg"
-                alt="фотографія Ігор Дем'яненко"
-                width="270"
-              />
-            </a>
-            <h3 class="section-team-title">Ігор Дем'яненко</h3>
-            <p class="section-team-text">Product Designer</p>
+            <img src="./images/1.jpg" alt="Our-Team" width="264" />
+            <h3 class="goal-name">Mark Guerrero</h3>
+            <p class="text">Product Designer</p>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./images/foto2.jpg"
-                alt="фотографія Ольга Рєпіна"
-                width="270"
-              />
-            </a>
-            <h3 class="section-team-title">Ольга Рєпіна</h3>
-            <p class="section-team-text">Frontend Developer</p>
+            <img src="./images/2.jpg" alt="Our-Team" width="264" />
+            <h3 class="goal-name">Tom Ford</h3>
+            <p class="text">Frontend Developer</p>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./images/foto3.jpg"
-                alt="фотографія Микола Тарасов"
-                width="270"
-              />
-            </a>
-            <h3 class="section-team-title">Микола Тарасов</h3>
-            <p class="section-team-text">Marketing</p>
+            <img src="./images/3.jpg" alt="Our-Team" width="264" />
+            <h3 class="goal-name">Camila Garcia</h3>
+            <p class="text">Marketing</p>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./images/foto4.jpg"
-                alt="фотографія Михайло Єрмаков"
-                width="270"
-              />
-            </a>
-            <h3 class="section-team-title">Михайло Єрмаков</h3>
-            <p class="section-team-text">UI Designer</p>
+            <img src="./images/4.jpg" alt="Our-Team" width="264" />
+
+            <h3 class="goal-name">Daniel Wilson</h3>
+            <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <!-- footer:address/contacts -->
-    <footer>
-      <section class="section-address">
-        <address>
-          <a href="./index.html" class="logo-footer"
-            ><span class="logo-footer-blue-white">Web</span>Studio</a
-          >
-          <ul class="address-list">
-            <li>м. Київ, пр-т Лесі Українки, 26</li>
-            <li>
-              <a href="mailto:info@devstudio.com" class="contact-link-footer"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+380961111111" class="contact-link-footer"
-                >+38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </section>
+    <footer class="footer">
+      <a class="footer-logo-two link" href="./index.html">
+        Web<span class="footer-logo">Studio</span>
+      </a>
+      <p class="footer-text our-skills">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
   </body>
 </html>
-<!-- The End -->
