@@ -36,7 +36,10 @@ body {
   letter-spacing: 0.03em;
 }
 .header-link:is(:hover, :focus) {
-  color: #434455;
+  color: var(--hover-color);
+}
+.contacts-link:is(:hover, :focus) {
+  color: var(--hover-color);
 }
 /* button */
 .button-title-text {
@@ -52,16 +55,13 @@ body {
 }
 /* auth-nav */
 .auth-nav a {
-  color: #434455;
+  color: var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 .address {
   font-style: normal;
-}
-.auth-nav:is(:hover, :focus) {
-  color: #434455;
 }
 /* text none */
 .list {
